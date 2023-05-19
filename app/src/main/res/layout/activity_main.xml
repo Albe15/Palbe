@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TextView para mostrar la fecha de la cita -->
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha: "
+        android:textSize="18sp" />
+
+    <!-- TextView para mostrar la descripción de la cita -->
+    <TextView
+        android:id="@+id/textViewDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFecha"
+        android:text="Descripción: "
+        android:textSize="18sp" />
+
+    <!-- TextView para mostrar el ID del médico -->
+    <TextView
+        android:id="@+id/textViewMedicoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewDescripcion"
+        android:text="ID del médico: "
+        android:textSize="18sp" />
+
+    <!-- TextView para mostrar el ID del usuario -->
+    <TextView
+        android:id="@+id/textViewUsuarioId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMedicoId"
+        android:text="ID del usuario: "
+        android:textSize="18sp" />
+
+    <!-- TextView para mostrar el ID de la especialidad -->
+    <TextView
+        android:id="@+id/textViewEspecialidadId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsuarioId"
+        android:text="ID de la especialidad: "
+        android:textSize="18sp" />
+
+</RelativeLayout>
